@@ -1,0 +1,39 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(crop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.login {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); 
+    width: 60%; 
+    max-width: 400px; 
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 0 auto; 
+}
+
+button {
+    color: white;
+    background-color: green;
+}
+
+.login input {
+    border: none;
+    border-bottom: 1px solid black;
+    width: 100%;
+    margin-bottom: 15px; 
+}
+
+.forget {
+    text-align: right;
+}
